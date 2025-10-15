@@ -27,7 +27,6 @@ Tech Stack
 - **Frontend:** [Streamlit](https://streamlit.io)  
 - **Backend:** Python (with NetworkX for graph algorithms)  
 - **Data:** CSV / JSON datasets stored in `data/`  
-- **Other Libraries:** Pandas, NumPy, etc.
 
 Installation
 1. **Clone the repository**
@@ -70,8 +69,6 @@ Criteria: min_cost
 
 Output:
 
-yaml
-Copy code
 DEL -> DXB -> LON
 Total cost: ₹12,000
 Total duration: 10h
