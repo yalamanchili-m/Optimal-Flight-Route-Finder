@@ -8,13 +8,14 @@ This project allows users to:
 - View the **best available route** based on the dataset
 - See flight details, total cost, and total duration — all in a simple Streamlit web interface.
 
-Project Structure
-Optimal-Flight-Route-Finder/
-├── backend/ # Core logic: graph algorithms, data processing
-├── data/ # Flight & airport datasets
-├── frontend/ # Streamlit app files (UI)
-├── main.py # Entry point to run the Streamlit app
-└── requirements.txt # Python dependencies
+##Project Structure
+Optimal-Flight-Route-Finder
+- `backend/` — Core logic including graph algorithms and data processing  
+- `data/` — Flight and airport datasets  
+- `frontend/` — Streamlit app files (UI)  
+- `main.py` — Entry point to run the Streamlit app  
+- `requirements.txt` — Python dependencies
+
 
 Features
 - ✈️ Optimal route calculation using shortest path algorithms  
