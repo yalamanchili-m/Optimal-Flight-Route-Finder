@@ -25,92 +25,32 @@ Features
 - 🧮 Clean architecture separating logic and UI
 
 Tech Stack
-- **Frontend:** [Streamlit](https://streamlit.io)  
-- **Backend:** Python (with NetworkX for graph algorithms)  
+- **Frontend:** Streamlit
+- **Backend:** Python 
 - **Data:** CSV / JSON datasets stored in `data/`  
 
-Installation
-1. **Clone the repository**
-   git clone https://github.com/yalamanchili-m/Optimal-Flight-Route-Finder.git
-   cd Optimal-Flight-Route-Finder
-Create and activate virtual environment (optional but recommended)
-  python -m venv venv
-  source venv/bin/activate         # On Windows: venv\Scripts\activate
-Install dependencies
-  pip install -r requirements.txt
-Add your flight dataset
-  Place flights.csv or any dataset inside the data/ folder.
-Running the App
-Simply run:
-  streamlit run main.py
-This will launch the Streamlit UI in your browser, typically at:
-  http://localhost:8501
-
 How It Works
-Backend reads and processes flight data from the data/ folder.
-Graph is constructed with airports as nodes and flights as weighted edges.
+- Backend reads and processes flight data from the data/ folder.
+- Graph is constructed with airports as nodes and flights as weighted edges.
 
 User enters:
-Source airport
-Destination airport
-Optimization criteria (e.g., minimum cost)
-The algorithm (e.g., Dijkstra) finds the best route.
+- Source airport
+- Destination airport
+- Optimization criteria (e.g., minimum cost)
+- The algorithm (e.g., Dijkstra) finds the best route.
 
 Streamlit displays:
-Route details
-Total cost
-Total duration
-Number of stops
-Example Usage
+- Route details
+- Total cost
+- Total duration
+- Number of stops
 
-Input:
-Source: DEL
-Destination: LON
-Criteria: min_cost
+Future Enhancements
+- Map visualization of routes (e.g., using Folium or Plotly with Streamlit)
+- Multi-criteria optimization (cost + time)
+- Real-time data integration (APIs)
+- User accounts & saved searches
 
-Output:
 
-DEL -> DXB -> LON
-Total cost: ₹12,000
-Total duration: 10h
-Stops: 1
-🧪 Testing
-To run tests (if present in backend/tests):
-
-bash
-Copy code
-pytest
-Or using built-in unittest:
-
-bash
-Copy code
-python -m unittest
-🛠️ Future Enhancements
-🗺️ Map visualization of routes (e.g., using Folium or Plotly with Streamlit)
-
-⏳ Multi-criteria optimization (cost + time)
-
-📍 Real-time data integration (APIs)
-
-🧑 User accounts & saved searches
-
-🤝 Contributing
-Fork the repository
-
-Create a new branch (git checkout -b feature-branch)
-
-Make your changes
-
-Push and open a pull request 🚀
-
-📜 License
+License
 MIT License © 2025 yalamanchili-m
-
-🙏 Acknowledgements
-Streamlit for frontend framework
-
-NetworkX for graph algorithms
-
-Pandas & NumPy for data handling
-
-Open flight / airport datasets
