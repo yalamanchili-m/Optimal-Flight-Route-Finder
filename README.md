@@ -50,6 +50,3 @@ Future Enhancements
 - Real-time data integration (APIs)
 - User accounts & saved searches
 
-
-License
-MIT License © 2025 yalamanchili-m
